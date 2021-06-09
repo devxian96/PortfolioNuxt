@@ -20,7 +20,7 @@
     <!-- Background IMG Start -->
     <div class="bg-icon">
       <v-col cols="10" sm="8" md="5" xl="3">
-        <v-img lazy-src="/virus.png" src="/virus.png" />
+        <v-img :lazy-src="img" :src="img" />
       </v-col>
     </div>
     <!-- Background IMG End -->
@@ -40,6 +40,17 @@
     <!-- Footer End -->
   </v-app>
 </template>
+
+<script lang="ts">
+import Vue from 'vue'
+export default Vue.extend({
+  data() {
+    return {
+      img: require('@/assets/virus.png'),
+    }
+  },
+})
+</script>
 
 <style>
 /* Background */
