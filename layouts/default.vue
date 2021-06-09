@@ -19,7 +19,16 @@
     <!-- Background IMG Start -->
     <div class="bg-icon">
       <v-col cols="10" sm="8" md="5" xl="3">
-        <v-img :lazy-src="img" :src="img" />
+        <v-img :lazy-src="img" :src="img" alt="virus">
+          <template #placeholder>
+            <v-row class="fill-height ma-0" align="center" justify="center">
+              <v-progress-circular
+                indeterminate
+                color="grey lighten-5"
+              ></v-progress-circular>
+            </v-row>
+          </template>
+        </v-img>
       </v-col>
     </div>
     <!-- Background IMG End -->
@@ -33,7 +42,7 @@
     <!-- Main End -->
 
     <!-- Footer Start -->
-    <v-footer class="footer">
+    <v-footer>
       <span class="mr-auto ml-auto"
         ><a
           href="https://github.com/devxian96/PortfolioNuxt/blob/master/LICENSE"
@@ -50,7 +59,7 @@
 <script lang="ts">
 import Vue from 'vue'
 export default Vue.extend({
-  data() {
+  data(): object {
     return {
       img: require('@/assets/virus.png'),
     }
@@ -61,9 +70,7 @@ export default Vue.extend({
 <style>
 /* Background */
 .theme--light.v-application {
-  background: #f8de88;
-  background-size: 100% 100%;
-  background-position: center;
+  background: #f8de88 !important;
 }
 .bg-icon {
   width: 100%;
@@ -74,14 +81,14 @@ export default Vue.extend({
   margin: auto;
 }
 .theme--light.v-footer {
-  background-color: transparent;
+  background-color: transparent !important;
 }
 
 /* Reactive Web */
 .menu,
 .container {
-  width: 100%;
-  max-width: 1200px;
+  width: 100% !important;
+  max-width: 1200px !important;
 }
 
 /* Menu Design */
@@ -91,16 +98,16 @@ export default Vue.extend({
 }
 .menu-wrap {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 .menu-wrap > li {
   float: left;
-  margin: 0;
+  margin-left: 0 !important;
   margin-right: 1.2rem;
   padding: 0;
   border: 0;
-  color: #333;
+  color: #333 !important;
 }
 .v-toolbar__content {
   border-radius: 3px;
@@ -112,7 +119,7 @@ header {
   margin-bottom: 3rem !important;
 }
 .theme--light.v-app-bar.v-toolbar.v-sheet {
-  background: transparent;
+  background: transparent !important;
 }
 .v-application ul,
 .v-application ol {
@@ -129,20 +136,20 @@ a:hover {
 }
 
 /* Grid */
-.row {
+.grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 12px;
   grid-row-gap: 30px;
 }
-.row > div {
+.grid > div {
   display: grid;
   grid-column-gap: 12px;
   grid-row-gap: 30px;
 }
-@media (max-width: 767px) {
-  .row {
-    grid-template-columns: auto;
+@media all and (max-width: 767px) {
+  .grid {
+    grid-template-columns: none;
   }
 }
 
@@ -170,5 +177,12 @@ a:hover {
   border: 1px solid rgba(255, 255, 255, 0.18);
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+/* Line */
+hr {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  margin-top: 5px;
+  margin-bottom: 8px;
 }
 </style>
