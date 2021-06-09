@@ -26,9 +26,9 @@
 
     <!-- Main Start -->
     <v-main>
-      <v-container fluid>
+      <div class="container">
         <nuxt />
-      </v-container>
+      </div>
     </v-main>
     <!-- Main End -->
 
@@ -55,9 +55,6 @@ export default Vue.extend({
       img: require('@/assets/virus.png'),
     }
   },
-  head: {
-    title: '홈',
-  },
 })
 </script>
 
@@ -80,10 +77,15 @@ export default Vue.extend({
   background-color: transparent;
 }
 
-/* Menu Design */
-.menu {
+/* Reactive Web */
+.menu,
+.container {
   width: 100%;
   max-width: 1200px;
+}
+
+/* Menu Design */
+.menu {
   max-height: 50px;
   margin: auto;
 }
@@ -107,7 +109,7 @@ export default Vue.extend({
 }
 header {
   margin-top: 13px !important;
-  margin-bottom: 13px !important;
+  margin-bottom: 3rem !important;
 }
 .theme--light.v-app-bar.v-toolbar.v-sheet {
   background: transparent;
@@ -124,5 +126,37 @@ a {
 }
 a:hover {
   color: rgb(0, 170, 255);
+}
+
+/* Grid */
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 12px;
+  grid-row-gap: 30px;
+}
+.row > div {
+  display: grid;
+  grid-column-gap: 12px;
+  grid-row-gap: 30px;
+}
+@media (max-width: 767px) {
+  .row {
+    grid-template-columns: auto;
+  }
+}
+
+/* Glassmorphism */
+.box {
+  width: 100%;
+  height: fit-content;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 </style>
