@@ -59,7 +59,7 @@
 <script lang="ts">
 import Vue from 'vue'
 export default Vue.extend({
-  data(): object {
+  data() {
     return {
       img: require('@/assets/virus.png'),
     }

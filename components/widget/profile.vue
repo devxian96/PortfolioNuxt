@@ -38,7 +38,7 @@
 <script lang="ts">
 import Vue from 'vue'
 export default Vue.extend({
-  data(): object {
+  data() {
     return {
       myPic: require('@/assets/mypic.jpg'),
     }
