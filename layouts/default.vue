@@ -3,14 +3,13 @@
     <!-- Header Start -->
     <v-app-bar flat class="menu">
       <div>
-        <h3>Seokhyun Jang</h3>
+        <h2>Seokhyun Jang</h2>
       </div>
       <div>
         <ul class="menu-wrap">
           <li>홈</li>
           <li>보유기술</li>
           <li>대표 프로젝트</li>
-          <li>철학과 목표</li>
           <li>블로그</li>
         </ul>
       </div>
@@ -34,8 +33,15 @@
     <!-- Main End -->
 
     <!-- Footer Start -->
-    <v-footer>
-      <span>&copy; {{ new Date().getFullYear() }}</span>
+    <v-footer class="footer">
+      <span class="mr-auto ml-auto"
+        ><a
+          href="https://github.com/devxian96/PortfolioNuxt/blob/master/LICENSE"
+          target="_black"
+          >MIT License</a
+        >
+        Seokhyun Jang &copy; {{ new Date().getFullYear() }}</span
+      >
     </v-footer>
     <!-- Footer End -->
   </v-app>
@@ -48,6 +54,9 @@ export default Vue.extend({
     return {
       img: require('@/assets/virus.png'),
     }
+  },
+  head: {
+    title: '홈',
   },
 })
 </script>
@@ -66,6 +75,9 @@ export default Vue.extend({
 }
 .bg-icon > div {
   margin: auto;
+}
+.theme--light.v-footer {
+  background-color: transparent;
 }
 
 /* Menu Design */
@@ -95,6 +107,7 @@ export default Vue.extend({
 }
 header {
   margin-top: 13px !important;
+  margin-bottom: 13px !important;
 }
 .theme--light.v-app-bar.v-toolbar.v-sheet {
   background: transparent;
@@ -102,5 +115,14 @@ header {
 .v-application ul,
 .v-application ol {
   padding-left: 0;
+}
+
+/* Basic Tag */
+a {
+  color: #0af;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(0, 170, 255);
 }
 </style>
