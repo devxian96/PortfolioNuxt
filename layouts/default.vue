@@ -121,11 +121,11 @@ header {
 
 /* Basic Tag */
 a {
-  color: #0af;
+  color: #3c4bab;
   text-decoration: none;
 }
 a:hover {
-  color: rgb(0, 170, 255);
+  color: #8897f7;
 }
 
 /* Grid */
@@ -151,6 +151,18 @@ a:hover {
   width: 100%;
   height: fit-content;
   background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.box-purple {
+  width: 100%;
+  height: fit-content;
+  background: rgba(60, 75, 171, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);

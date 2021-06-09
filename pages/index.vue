@@ -13,13 +13,13 @@
       <div class="box">test4</div>
       <div class="box">test4</div>
       <div class="box">test4</div>
-      <div class="box">test4</div>
+      <div class="box-purple">test4</div>
     </div>
     <!-- Center Widget End -->
 
     <!-- Right Widget Start -->
     <div>
-      <div class="box">test5</div>
+      <div class="box-purple">test5</div>
     </div>
     <!-- Right Widget End -->
   </v-row>
