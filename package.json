@@ -1,5 +1,7 @@
 {
   "name": "portfolio-nuxt",
+  "author": "Seokhyun Jang",
+  "description": "Nuxtjs Web for Portfolio",
   "version": "1.0.0",
   "private": true,
   "scripts": {
