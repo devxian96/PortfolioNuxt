@@ -41,177 +41,43 @@
       <div class="box pt-2 pb-2">
         <h3>주요 Front-End 기술스택</h3>
         <hr />
-        <v-tooltip bottom>
-          <template #activator="{ on, attrs }">
-            <v-icon x-large v-bind="attrs" v-on="on"> fab fa-vuejs </v-icon>
-          </template>
-          <span>vue.js (Nuxt.js, Vuex)</span>
-        </v-tooltip>
-        <v-tooltip bottom>
-          <template #activator="{ on, attrs }">
-            <v-icon x-large v-bind="attrs" v-on="on"> fab fa-react </v-icon>
-          </template>
-          <span>react (Next.js, Redux)</span>
-        </v-tooltip>
-        <v-tooltip bottom>
-          <template #activator="{ on, attrs }">
-            <v-icon x-large v-bind="attrs" v-on="on"> fab fa-js-square </v-icon>
-          </template>
-          <span>ES6 이상</span>
-        </v-tooltip>
-        <v-tooltip bottom>
-          <template #activator="{ on, attrs }">
-            <v-icon x-large v-bind="attrs" v-on="on"> fab fa-html5 </v-icon>
-          </template>
-          <span>HTML5 (DOM, Repaint, Reflow)</span>
-        </v-tooltip>
-        <v-tooltip bottom>
-          <template #activator="{ on, attrs }">
-            <v-icon x-large v-bind="attrs" v-on="on"> fab fa-css3 </v-icon>
-          </template>
-          <span>css3 (Triger, Module)</span>
-        </v-tooltip>
-        <v-tooltip bottom>
-          <template #activator="{ on, attrs }">
-            <v-icon x-large v-bind="attrs" v-on="on"> fas fa-cube </v-icon>
-          </template>
-          <span>Webpack</span>
-        </v-tooltip>
-        <v-tooltip bottom>
-          <template #activator="{ on, attrs }">
-            <v-icon x-large v-bind="attrs" v-on="on"> fas fa-bold </v-icon>
-          </template>
-          <span>Babel</span>
-        </v-tooltip>
-        <v-tooltip bottom>
-          <template #activator="{ on, attrs }">
-            <v-icon x-large v-bind="attrs" v-on="on"> fas fa-poll </v-icon>
-          </template>
-          <span>Polyfill</span>
-        </v-tooltip>
-        <v-tooltip bottom>
-          <template #activator="{ on, attrs }">
-            <v-icon x-large v-bind="attrs" v-on="on"> fas fa-check </v-icon>
-          </template>
-          <span>TypeScript</span>
-        </v-tooltip>
-        <v-tooltip bottom>
-          <template #activator="{ on, attrs }">
-            <v-icon x-large v-bind="attrs" v-on="on"> fab fa-bootstrap </v-icon>
-          </template>
-          <span>Bootstrap (Vuetify)</span>
-        </v-tooltip>
-        <v-tooltip bottom>
-          <template #activator="{ on, attrs }">
-            <v-icon x-large v-bind="attrs" v-on="on"> fab fa-mdb </v-icon>
-          </template>
-          <span>Material UI</span>
-        </v-tooltip>
+        <skill-stack
+          v-for="{ icon, summary } in frontEnd"
+          :key="icon"
+          :icon="icon"
+          :summary="summary"
+        />
       </div>
       <div class="box pt-2 pb-2">
         <h3>주요 Back-End 기술스택</h3>
         <hr />
-        <v-tooltip bottom>
-          <template #activator="{ on, attrs }">
-            <v-icon x-large v-bind="attrs" v-on="on"> fab fa-node </v-icon>
-          </template>
-          <span>node.js (Express, http, ejs)</span>
-        </v-tooltip>
-        <v-tooltip bottom>
-          <template #activator="{ on, attrs }">
-            <v-icon x-large v-bind="attrs" v-on="on"> fab fa-php </v-icon>
-          </template>
-          <span>PHP5,7</span>
-        </v-tooltip>
-        <v-tooltip bottom>
-          <template #activator="{ on, attrs }">
-            <v-icon x-large v-bind="attrs" v-on="on"> fab fa-java </v-icon>
-          </template>
-          <span
-            >Spring MVC, Spring Boot (thymeleaf, jpa, mybatis,
-            전자정부프레임워크)</span
-          >
-        </v-tooltip>
-        <v-tooltip bottom>
-          <template #activator="{ on, attrs }">
-            <v-icon x-large v-bind="attrs" v-on="on"> fab fa-python </v-icon>
-          </template>
-          <span>Flask (TF, Keras, Orion)</span>
-        </v-tooltip>
-        <v-tooltip bottom>
-          <template #activator="{ on, attrs }">
-            <v-icon x-large v-bind="attrs" v-on="on"> fas fa-database </v-icon>
-          </template>
-          <span>RDBMS(MySQL, Oracle, PostgreSQL), TSDBMS(influxDB)</span>
-        </v-tooltip>
+        <skill-stack
+          v-for="{ icon, summary } in backEnd"
+          :key="icon"
+          :icon="icon"
+          :summary="summary"
+        />
       </div>
       <div class="box">
         <h3>주요 DevOps</h3>
         <hr />
-        <v-tooltip bottom>
-          <template #activator="{ on, attrs }">
-            <v-icon x-large v-bind="attrs" v-on="on"> fab fa-aws </v-icon>
-          </template>
-          <span>EC2, RDB, Route53, lightsail</span>
-        </v-tooltip>
-        <v-tooltip bottom>
-          <template #activator="{ on, attrs }">
-            <v-icon x-large v-bind="attrs" v-on="on"> fas fa-server </v-icon>
-          </template>
-          <span
-            >VPS (Hostinger, Vultr...), Cloud (FireBase, Github Page,
-            Vercel)</span
-          >
-        </v-tooltip>
-        <v-tooltip bottom>
-          <template #activator="{ on, attrs }">
-            <v-icon x-large v-bind="attrs" v-on="on"> fab fa-slack </v-icon>
-          </template>
-          <span>Slack, notion</span>
-        </v-tooltip>
-        <v-tooltip bottom>
-          <template #activator="{ on, attrs }">
-            <v-icon x-large v-bind="attrs" v-on="on"> fab fa-git </v-icon>
-          </template>
-          <span>GIT 형상관리도구</span>
-        </v-tooltip>
-        <v-tooltip bottom>
-          <template #activator="{ on, attrs }">
-            <v-icon x-large v-bind="attrs" v-on="on"> fab fa-windows </v-icon>
-          </template>
-          <span>Windows Server (구축, 최적화)</span>
-        </v-tooltip>
-        <v-tooltip bottom>
-          <template #activator="{ on, attrs }">
-            <v-icon x-large v-bind="attrs" v-on="on"> fab fa-linux </v-icon>
-          </template>
-          <span>Linux Server (구축, 최적화)</span>
-        </v-tooltip>
+        <skill-stack
+          v-for="{ icon, summary } in devOps"
+          :key="icon"
+          :icon="icon"
+          :summary="summary"
+        />
       </div>
 
       <div class="box">
         <h3>기타 기술스택</h3>
         <hr />
-        <v-tooltip bottom>
-          <template #activator="{ on, attrs }">
-            <v-icon x-large v-bind="attrs" v-on="on"> fas fa-scroll </v-icon>
-          </template>
-          <span>사무자동화(Autoit)</span>
-        </v-tooltip>
-        <v-tooltip bottom>
-          <template #activator="{ on, attrs }">
-            <v-icon x-large v-bind="attrs" v-on="on">
-              fas fa-shield-alt
-            </v-icon>
-          </template>
-          <span>모의침투테스팅</span>
-        </v-tooltip>
-        <v-tooltip bottom>
-          <template #activator="{ on, attrs }">
-            <v-icon x-large v-bind="attrs" v-on="on"> fas fa-code </v-icon>
-          </template>
-          <span>C, C#</span>
-        </v-tooltip>
+        <skill-stack
+          v-for="{ icon, summary } in elseSkill"
+          :key="icon"
+          :icon="icon"
+          :summary="summary"
+        />
       </div>
     </div>
     <!-- Center Widget End -->
@@ -262,9 +128,10 @@
 <script lang="ts">
 import Vue from 'vue'
 import Profile from '@/components/widget/profile.vue'
+import SkillStack from '@/components/widget/skillstack.vue'
 
 export default Vue.extend({
-  components: { Profile },
+  components: { Profile, SkillStack },
   data() {
     return {
       cards: [
@@ -277,6 +144,110 @@ export default Vue.extend({
           img: 'https://camo.githubusercontent.com/dd6295e94361b1cd4a4ebba774a16cc8447dae52fcbe1a319ff8524490613c21/68747470733a2f2f6e656f6d6f2d75692e636f6d2f6d61696e6c6f676f2e706e67',
           link: 'https://github.com/neomorphism/neomo',
           summary: '뉴모피즘 웹 디자인 프레임워크',
+        },
+      ],
+      frontEnd: [
+        {
+          icon: 'fab fa-vuejs',
+          summary: 'vue.js (Nuxt.js, Vuex)',
+        },
+        {
+          icon: 'fab fa-react',
+          summary: 'react (Next.js, Redux)',
+        },
+        {
+          icon: 'fab fa-js-square',
+          summary: 'ES6 이상',
+        },
+        {
+          icon: 'fab fa-html5',
+          summary: 'HTML5 (DOM, Repaint, Reflow)',
+        },
+        {
+          icon: 'fab fa-css3',
+          summary: 'css3 (Triger, Module)',
+        },
+        {
+          icon: 'fas fa-cube',
+          summary: 'Webpack',
+        },
+        {
+          icon: 'fas fa-bold',
+          summary: 'Babel',
+        },
+        {
+          icon: 'fas fa-poll',
+          summary: 'Polyfill',
+        },
+        {
+          icon: 'fas fa-check',
+          summary: 'Typescript',
+        },
+        {
+          icon: 'fab fa-bootstrap',
+          summary: 'Bootstrap (Vuetify)',
+        },
+        {
+          icon: 'fab fa-mdb',
+          summary: 'Material UI',
+        },
+      ],
+      backEnd: [
+        { icon: 'fab fa-node', summary: 'node.js (Express, http, ejs)' },
+        { icon: 'fab fa-php', summary: 'PHP5,7' },
+        {
+          icon: 'fab fa-java',
+          summary:
+            'Spring MVC, Spring Boot (thymeleaf, jpa, mybatis, 전자정부프레임워크)',
+        },
+        {
+          icon: 'fab fa-python',
+          summary: 'Flask (TF, Keras, Orion)',
+        },
+        {
+          icon: 'fas fa-database',
+          summary: 'RDBMS(MySQL, Oracle, PostgreSQL), TSDBMS(influxDB)',
+        },
+      ],
+      devOps: [
+        {
+          icon: 'fab fa-aws',
+          summary: 'EC2, RDB, Route53, lightsail',
+        },
+        {
+          icon: 'fas fa-server',
+          summary:
+            'VPS (Hostinger, Vultr...), Cloud (FireBase, Github Page, Vercel)',
+        },
+        {
+          icon: 'fab fa-slack',
+          summary: 'Slack, notion',
+        },
+        {
+          icon: 'fab fa-git',
+          summary: 'GIT 형상관리도구',
+        },
+        {
+          icon: 'fab fa-windows',
+          summary: 'Windows Server (구축, 최적화)',
+        },
+        {
+          icon: 'fab fa-linux',
+          summary: 'Linux Server (구축, 최적화)',
+        },
+      ],
+      elseSkill: [
+        {
+          icon: 'fas fa-scroll',
+          summary: '사무자동화(Autoit)',
+        },
+        {
+          icon: 'fas fa-shield-alt',
+          summary: '모의침투테스팅',
+        },
+        {
+          icon: 'fas fa-code',
+          summary: 'C, C#',
         },
       ],
     }

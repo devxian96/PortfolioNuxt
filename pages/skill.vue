@@ -1,3 +1,5 @@
 <template>
-  <div>test</div>
+  <div>
+    <v-row class="box"> test </v-row>
+  </div>
 </template>
