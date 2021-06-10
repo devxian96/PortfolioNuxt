@@ -146,6 +146,7 @@ a:hover {
   display: grid;
   grid-column-gap: 12px;
   grid-row-gap: 30px;
+  grid-auto-rows: min-content;
 }
 @media all and (max-width: 767px) {
   .grid {
