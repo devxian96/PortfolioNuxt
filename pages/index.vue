@@ -63,7 +63,7 @@
           <template #activator="{ on, attrs }">
             <v-icon x-large v-bind="attrs" v-on="on"> fab fa-html5 </v-icon>
           </template>
-          <span>HTML5 (DOM, Paint, Reflow)</span>
+          <span>HTML5 (DOM, Repaint, Reflow)</span>
         </v-tooltip>
         <v-tooltip bottom>
           <template #activator="{ on, attrs }">
@@ -218,6 +218,30 @@
 
     <!-- Right Widget Start -->
     <div>
+      <div class="box pt-4 pb-4">
+        <v-carousel
+          continuous
+          height="auto"
+          hide-delimiter-background
+          hide-delimiters
+        >
+          <v-carousel-item
+            v-for="{ img, link, summary } in cards"
+            :key="link"
+            eager
+          >
+            <a :href="link" target="_black">
+              <v-img
+                :lazy-src="img"
+                :src="img"
+                :alt="summary"
+                max-width="350"
+                max-height="350"
+              />
+            </a>
+          </v-carousel-item>
+        </v-carousel>
+      </div>
       <div class="box-purple">test5</div>
     </div>
     <!-- Right Widget End -->
@@ -230,6 +254,22 @@ import Profile from '@/components/widget/profile.vue'
 
 export default Vue.extend({
   components: { Profile },
+  data() {
+    return {
+      cards: [
+        {
+          img: 'https://github.com/devxian96/phpExpress/raw/main/phpExpressLogo.png?raw=true',
+          link: 'https://github.com/devxian96/phpExpress',
+          summary: 'PHP RestAPI 프레임워크',
+        },
+        {
+          img: 'https://camo.githubusercontent.com/dd6295e94361b1cd4a4ebba774a16cc8447dae52fcbe1a319ff8524490613c21/68747470733a2f2f6e656f6d6f2d75692e636f6d2f6d61696e6c6f676f2e706e67',
+          link: 'https://github.com/neomorphism/neomo',
+          summary: '뉴모피즘 웹 디자인 프레임워크',
+        },
+      ],
+    }
+  },
   head: {
     title: '홈',
   },
