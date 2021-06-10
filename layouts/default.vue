@@ -3,14 +3,20 @@
     <!-- Header Start -->
     <v-app-bar flat class="menu">
       <div>
-        <h2>Seokhyun Jang</h2>
+        <nuxt-link to="/" class="white--text"><h2>Seokhyun Jang</h2></nuxt-link>
       </div>
       <div>
         <ul class="menu-wrap">
-          <li>홈</li>
-          <li>보유기술</li>
-          <li>대표 프로젝트</li>
-          <li>블로그</li>
+          <li><nuxt-link to="/" class="white--text">홈</nuxt-link></li>
+          <li>
+            <nuxt-link to="/skill" class="white--text">보유기술</nuxt-link>
+          </li>
+          <li>
+            <nuxt-link to="/project" class="white--text"
+              >대표 프로젝트</nuxt-link
+            >
+          </li>
+          <li><nuxt-link to="/blog" class="white--text">블로그</nuxt-link></li>
         </ul>
       </div>
     </v-app-bar>
@@ -69,8 +75,9 @@ export default Vue.extend({
 
 <style>
 /* Background */
+.theme--dark.v-application,
 .theme--light.v-application {
-  background: #f8de88 !important;
+  background: #2f495e !important;
 }
 .bg-icon {
   width: 100%;
@@ -80,6 +87,7 @@ export default Vue.extend({
 .bg-icon > div {
   margin: auto;
 }
+.theme--dark.v-footer,
 .theme--light.v-footer {
   background-color: transparent !important;
 }
@@ -107,17 +115,18 @@ export default Vue.extend({
   margin-right: 1.2rem;
   padding: 0;
   border: 0;
-  color: #333 !important;
+  color: #fff !important;
 }
 .v-toolbar__content {
   border-radius: 3px;
-  border-left: 10px solid #333;
+  border-left: 10px solid #fff;
   display: block !important;
 }
 header {
   margin-top: 13px !important;
   margin-bottom: 3rem !important;
 }
+.theme--dark.v-app-bar.v-toolbar.v-sheet,
 .theme--light.v-app-bar.v-toolbar.v-sheet {
   background: transparent !important;
 }
@@ -128,11 +137,11 @@ header {
 
 /* Basic Tag */
 a {
-  color: #3c4bab;
+  color: #0af !important;
   text-decoration: none;
 }
 a:hover {
-  color: #8897f7;
+  color: #8897f7 !important;
 }
 
 /* Grid */
@@ -158,7 +167,7 @@ a:hover {
 .box {
   width: 100%;
   height: fit-content;
-  background: rgba(255, 255, 255, 0.25);
+  background: rgba(44, 62, 80, 0.8);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);

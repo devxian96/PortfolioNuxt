@@ -29,9 +29,9 @@
       <div class="box pt-2 pb-2">
         <h3>관심사</h3>
         <hr />
-        <strong>최신 트랜드</strong>와 <strong>클린코드</strong>에 관심이
-        많으며, 자신만 이해 가능한 코드가 아닌 모든 이가 이해 할 수 있는 코드를
-        작성 하고자 합니다.
+        <strong>최신 트랜드</strong>와 <strong>클린코드</strong>,
+        <strong>성능개선</strong>에 관심이 많으며, 자신만 이해 가능한 코드가
+        아닌 모든 이가 이해 할 수 있는 코드를 작성 하고자 합니다.
       </div>
     </div>
     <!-- Left Widget End -->
@@ -236,13 +236,24 @@
                 :src="img"
                 :alt="summary"
                 max-width="350"
-                max-height="350"
+                max-height="340"
+                width="100%"
+                height="100%"
               />
             </a>
           </v-carousel-item>
         </v-carousel>
       </div>
-      <div class="box-purple">test5</div>
+      <div class="box-purple pt-3 pb-3">
+        <h3 class="text-center">이 웹사이트는 무엇으로 만들었을까?</h3>
+        <p class="text-center">
+          개발에 사용된 기술스택과 최적화, UX등 어떤것이 사용되었는지 궁금하다면
+          자세히 보기 버튼을 눌러 확인해 보세요.
+        </p>
+        <v-btn depressed dark elevation="2" block color="primary lighten-1"
+          >자세히 보기</v-btn
+        >
+      </div>
     </div>
     <!-- Right Widget End -->
   </div>
