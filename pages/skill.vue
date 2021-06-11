@@ -24,7 +24,7 @@
       <p>
         Nuxtjs, Nextjs, Webpack, babel, pollyfill, Typescript, vuetify, Material
         UI, JAVA, Spring MVC, Spring Boot, npm, yarn, window server, linux
-        server, eslint, prettier, notion, slack, Git, Vegas PRO
+        server, eslint, prettier, notion, slack, Git, Vegas PRO, i18n
       </p>
     </div>
 
