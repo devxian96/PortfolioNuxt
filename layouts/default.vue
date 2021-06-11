@@ -16,6 +16,9 @@
               >대표 프로젝트</nuxt-link
             >
           </li>
+          <li>
+            <nuxt-link to="/history" class="white--text">역사</nuxt-link>
+          </li>
           <li><nuxt-link to="/blog" class="white--text">블로그</nuxt-link></li>
         </ul>
       </div>

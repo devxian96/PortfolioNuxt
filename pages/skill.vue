@@ -8,7 +8,10 @@
         개발 할 수 있습니다.
       </h3>
       <hr />
-      <p>Javascript <small></small></p>
+      <p>
+        Javascript(ES6 Upper), Vue.js, Vuex, React, Redux, HTML5, CSS3,
+        bootstrap, NodeJS, PHP, Autoit, Express, Sequelize
+      </p>
     </div>
 
     <!-- well know -->
@@ -18,6 +21,11 @@
         생각하는 대로 서비스를 개발 할 수 있습니다.
       </h3>
       <hr />
+      <p>
+        Nuxtjs, Nextjs, Webpack, babel, pollyfill, Typescript, vuetify, Material
+        UI, JAVA, Spring MVC, Spring Boot, npm, yarn, window server, linux
+        server, eslint, prettier, notion, slack, Git, Vegas PRO
+      </p>
     </div>
 
     <!-- just know -->
@@ -27,6 +35,12 @@
         있지만 전문적이지는 않습니다.
       </h3>
       <hr />
+      <p>
+        Python, Flask, TF, Keras, Orion, MySQL, Oracle, PostgreSQL, influxDB, C,
+        C#, Electron, PWA, Lua, thymeleaf, JSP(JSTL), ejs, SQL, Pentesting,
+        AWS(CLOUND HOSTING), Photoshop, premiere PRO, Github CICD Action, Github
+        Husky, Bash
+      </p>
     </div>
 
     <!-- tried once -->
@@ -34,8 +48,19 @@
       <h3>
         <v-icon x-large class="mr-5">fas fa-poo</v-icon>한번만 밖에 사용
         안해봤습니다.
-        <hr />
       </h3>
+      <hr />
+      <p>Swift, lisp, NativeScript, AMP, C++, R, prolog, UNIX, Router IOS OS</p>
+    </div>
+
+    <!-- explain -->
+    <div class="box-purple pt-2 pb-2">
+      <h4>
+        <v-icon class="mr-5">fas fa-question</v-icon>보유 기술의 종류가 왜
+        다양하고 많을까요?
+      </h4>
+      <hr />
+      <p>Just for fun. 취미생활입니다.</p>
     </div>
   </v-row>
 </template>
