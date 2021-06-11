@@ -50,7 +50,10 @@
         안해봤습니다.
       </h3>
       <hr />
-      <p>Swift, lisp, NativeScript, AMP, C++, R, prolog, UNIX, Router IOS OS</p>
+      <p>
+        Swift, lisp, NativeScript, AMP, C++, R, prolog, UNIX, Router IOS OS,
+        Docker
+      </p>
     </div>
 
     <!-- explain -->
