@@ -38,8 +38,8 @@
       <p>
         Python, Flask, TF, Keras, Orion, MySQL, Oracle, PostgreSQL, influxDB, C,
         C#, Electron, PWA, Lua, thymeleaf, JSP(JSTL), ejs, SQL, Pentesting,
-        AWS(CLOUND HOSTING), Photoshop, premiere PRO, Github CICD Action, Github
-        Husky, Bash
+        AWS(CLOUND HOSTING), Photoshop, premiere PRO, Github CICD Action, Husky,
+        Bash
       </p>
     </div>
 
