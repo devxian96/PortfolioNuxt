@@ -4,9 +4,7 @@
     <div>
       <div class="box"><Profile /></div>
       <div class="box-purple">
-        <client-only>
-          <v-icon x-large color="white">fa-envelope</v-icon>
-        </client-only>
+        <v-icon x-large color="white">fa-envelope</v-icon>
         <span class="white--text pl-3"
           ><a href="mailto:coolman555@me.com">coolman555@me.com</a></span
         >
@@ -58,7 +56,7 @@
           :summary="summary"
         />
       </div>
-      <div class="box">
+      <div class="box pt-2 pb-2">
         <h3>주요 DevOps</h3>
         <hr />
         <skill-stack
@@ -69,7 +67,7 @@
         />
       </div>
 
-      <div class="box">
+      <div class="box pt-2 pb-2">
         <h3>기타 기술스택</h3>
         <hr />
         <skill-stack

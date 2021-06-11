@@ -1,7 +1,9 @@
 <template>
   <v-tooltip bottom>
     <template #activator="{ on, attrs }">
-      <v-icon x-large v-bind="attrs" v-on="on"> {{ icon }} </v-icon>
+      <v-icon class="mr-5" x-large v-bind="attrs" v-on="on">
+        {{ icon }}
+      </v-icon>
     </template>
     <span>{{ summary }}</span>
   </v-tooltip>
