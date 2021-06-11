@@ -12,9 +12,10 @@
       </p>
       <p>쇼핑몰 개발(FireBase, Nuxtjs)</p>
       <p>
-        소프트젠(2021.04 ~ 2021.05, 2개월, 연구원) - AI 관제 시스템 개발 (React,
+        소프트젠(2021.03 ~ 2021.06, 4개월, 연구원) - AI 관제 시스템 개발 (React,
         Redux, Flask, ML, Redis, Express, LSTM + Annomaly Detection등)
       </p>
+      <p>소프트젠 홈페이지 개발 개발 (React, Redux, Material UI)</p>
       <p>
         2020년에 개발하였던 라이센스 시스템에서 사용한 자체개발 프레임워크
         <a href="https://github.com/devxian96/phpExpress" target="_blank"
@@ -104,6 +105,13 @@
         설문조사시스템 개발(전자정부프레임워크, VueJS)
       </p>
       <p>
+        <a
+          href="https://www.koreascience.or.kr/article/CFKO201924664108144.page"
+          target="_blank"
+          >대학 통합 설문조사 시스템 설계 및 구축 논문</a
+        >
+      </p>
+      <p>
         캠월드 영상 자동 수집및 링크사이트 개발및 운영(2인팀, 1년, PHP7,
         MariaDB, Python3)
       </p>
@@ -113,9 +121,9 @@
         있음)
       </p>
       <p>
-        한국교통공사 주민등록번호를 통해 운전면허 갱신 기간 조회 서비스를 통해
-        개인정보 유출 취약점 제보, 그러나 그런 취약점 없다는 답변과 함께 당일
-        취약한 부분 보안 서비스 설치를 통해 취약점 패치됨.
+        한국교통공사 운전면허 갱신 기간 조회 서비스를 통해 개인정보 유출 취약점
+        제보, 그러나 그런 취약점 없다는 답변과 함께 당일 취약한 부분 보안 서비스
+        설치를 통해 취약점 패치됨.
       </p>
       <p>
         정보보안에 큰 관심을 가지고 있었으나 4차례의 버그 제보 후 큰 회의감을
@@ -145,7 +153,7 @@
     <div class="box mb-5 pt-2 pb-2">
       <h3>2016</h3>
       <hr />
-      <p>HTML5, CSS3, PHP7, JQuery, Java</p>
+      <p>HTML5, CSS3, PHP7, JQuery, Java, 네트워크 관리사 2급 학습, Xamarin</p>
       <p>여주시 UCC 영상 대회 대상</p>
       <p>P2P 바이어 매칭 사이트 개발(4인팀 교내 프로젝트)</p>
       <p>
