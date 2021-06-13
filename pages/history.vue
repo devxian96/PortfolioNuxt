@@ -15,7 +15,9 @@
         소프트젠(2021.03 ~ 2021.06, 4개월, 연구원) - AI 관제 시스템 개발 (React,
         Redux, Flask, ML, Redis, Express, LSTM + Annomaly Detection등)
       </p>
-      <p>소프트젠 홈페이지 개발 개발 (React, Redux, Material UI)</p>
+      <p>
+        소프트젠 홈페이지 개발 개발 (2021.03, 1달, React, Redux, Material UI)
+      </p>
       <p>
         2020년에 개발하였던 라이센스 시스템에서 사용한 자체개발 프레임워크
         <a href="https://github.com/devxian96/phpExpress" target="_blank"

@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <!-- Header Start -->
-    <v-app-bar flat class="menu">
+    <v-app-bar flat floating class="menu">
       <div>
         <nuxt-link to="/" class="white--text"><h2>Seokhyun Jang</h2></nuxt-link>
       </div>
