@@ -20,6 +20,27 @@
         소개합니다.
       </p>
       <br />
+
+      <v-simple-table>
+        <template #default>
+          <tbody>
+            <tr>
+              <td>이름</td>
+              <td>헤이버디</td>
+            </tr>
+            <tr>
+              <td>당담</td>
+              <td>Full-Stack 개발</td>
+            </tr>
+            <tr>
+              <td>기간</td>
+              <td>2019년 12월 15일 ~ 현재</td>
+            </tr>
+          </tbody>
+        </template>
+      </v-simple-table>
+
+      <br />
       <h4>어째서 골프인가?</h4>
       <p>
         골프는 이제는 남녀노소 나이와 상관없이 즐길수 있는 스포츠가 되었습니다.
@@ -167,6 +188,14 @@
         :src="distence2"
         alt="유클리드 디스텐스 분석 기법"
       />
+      <h3>{{ thisYear }}년 아직 끝나지 않은 목표</h3>
+      <p>
+        헤이버디는 아직도 서비스를 개선하며 지속적인 관리를 하고 발전해 가고
+        있습니다. <br />
+        올해 중고거래 시세 위젯 개발과 모바일 앱 출시를 목표로 하고 있습니다.
+        <br />
+        해당 목표에 도달하기 위하여 꾸준히 서비스를 다듬고 발전 시키고 있습니다.
+      </p>
     </div>
   </v-row>
 </template>
@@ -186,6 +215,11 @@ export default Vue.extend({
       distence1: require('@/assets/heybirdie/distence1.png'),
       distence2: require('@/assets/heybirdie/distence2.png'),
     }
+  },
+  computed: {
+    thisYear(): number {
+      return new Date().getFullYear()
+    },
   },
 })
 </script>
