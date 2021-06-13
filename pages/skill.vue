@@ -63,7 +63,13 @@
         다양하고 많을까요?
       </h4>
       <hr />
-      <p>Just for fun. 취미생활입니다.</p>
+      <p>
+        Just for fun. 컴퓨터 공부는 재밌어서 시작했습니다. 그렇게 현재까지 오게
+        되었습니다.
+        <nuxt-link to="/history"
+          >제가 언제 어떻게 공부했는지 확인해 보세요.</nuxt-link
+        >
+      </p>
     </div>
   </v-row>
 </template>
