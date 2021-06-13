@@ -36,6 +36,13 @@
               <td>기간</td>
               <td>2019년 12월 15일 ~ 현재</td>
             </tr>
+            <tr>
+              <td>기술스택</td>
+              <td>
+                NuxtJS, Express, ES6, Sequelize, AWS, RDB, Notion, Zeplin, PWA,
+                Lint, CICD, GIT
+              </td>
+            </tr>
           </tbody>
         </template>
       </v-simple-table>
