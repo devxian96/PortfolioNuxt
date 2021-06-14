@@ -84,7 +84,7 @@ export default Vue.extend({
 }
 .bg-icon {
   width: 100%;
-  transform: translate(0, 20vh);
+  transform: translate(0, 20%);
   position: absolute;
 }
 .bg-icon > div {
