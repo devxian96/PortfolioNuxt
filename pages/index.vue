@@ -114,7 +114,13 @@
           개발에 사용된 기술스택과 최적화, UX등 어떤것이 사용되었는지 궁금하다면
           자세히 보기 버튼을 눌러 확인해 보세요.
         </p>
-        <v-btn depressed dark elevation="2" block color="primary lighten-1"
+        <v-btn
+          depressed
+          dark
+          elevation="2"
+          block
+          color="primary lighten-1 white--text"
+          to="/blog/intro"
           >자세히 보기</v-btn
         >
       </div>
