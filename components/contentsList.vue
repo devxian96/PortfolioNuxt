@@ -2,8 +2,16 @@
   <v-row>
     <div v-for="item in content" :key="item.id" class="box pt-2 pb-2 mb-5">
       <nuxt-link :to="{ name: 'blog-id', params: { id: item.slug } }">
-        <h4>{{ item.title }}</h4>
-        <p>{{ item.description }}</p>
+        <v-row>
+          <v-col
+            ><h3>{{ item.title }}</h3></v-col
+          >
+          <v-col class="text-right"
+            ><p class="mb-0">
+              {{ new Date(item.updatedAt).toLocaleString() }}
+            </p></v-col
+          >
+        </v-row>
       </nuxt-link>
     </div>
   </v-row>
@@ -20,7 +28,7 @@ export default Vue.extend({
   },
   async created() {
     this.content = await this.$content()
-      .only(['title', 'description', 'slug'])
+      .only(['title', 'updatedAt', 'slug'])
       .fetch()
   },
 })

@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!-- article start -->
     <article class="box">
       <h1>{{ page.title }}</h1>
       <small
@@ -15,12 +16,21 @@
       <hr />
       <nuxt-content :document="page" />
     </article>
+    <!-- article start -->
 
+    <!-- Action Button start -->
+    <v-col>
+      <v-btn class="pt-4 pb-5 float-right" to="/blog">목록</v-btn>
+    </v-col>
+    <!-- Action Button end -->
+
+    <!-- List start -->
     <v-col>
       <h3>다른글도 읽기</h3>
       <br />
       <contents-list />
     </v-col>
+    <!-- List End -->
   </div>
 </template>
 
