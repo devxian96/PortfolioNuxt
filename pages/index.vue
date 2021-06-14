@@ -121,6 +121,7 @@
           block
           color="primary lighten-1 white--text"
           to="/blog/intro"
+          aria-label="자세히 보기"
           >자세히 보기</v-btn
         >
       </div>
