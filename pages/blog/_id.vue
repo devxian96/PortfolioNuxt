@@ -1,5 +1,5 @@
 <template>
-  <div id="fb-root">
+  <div>
     <article class="box">
       <h1>{{ page.title }}</h1>
       <small
@@ -14,20 +14,6 @@
       >
       <hr />
       <nuxt-content :document="page" />
-      <script
-        async
-        defer
-        lazy
-        crossorigin="anonymous"
-        src="https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v11.0&appId=5605049046231707&autoLogAppEvents=1"
-        nonce="QsKxUqx5"
-      ></script>
-      <div
-        class="fb-comments"
-        data-href="https://developers.facebook.com/docs/plugins/comments#configurator"
-        data-width=""
-        data-numposts="5"
-      ></div>
     </article>
 
     <v-col>
