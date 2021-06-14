@@ -210,6 +210,7 @@
 <script lang="ts">
 import Vue from 'vue'
 export default Vue.extend({
+  scrollToTop: true,
   data() {
     return {
       logo: require('@/assets/heybirdie/logo.png'),

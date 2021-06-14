@@ -130,6 +130,7 @@ import SkillStack from '@/components/widget/skillstack.vue'
 
 export default Vue.extend({
   components: { Profile, SkillStack },
+  scrollToTop: true,
   data() {
     return {
       cards: [
