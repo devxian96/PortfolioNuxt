@@ -1,13 +1,13 @@
 <template>
   <v-row>
     <div class="box pt-2 pb-2">
-      <h3>
-        <a href="https://heybirdie.co.kr" target="_blank"
+      <h2>
+        <a href="https://heybirdie.co.kr" target="_blank" rel="noopener"
           >헤이버디 - 나와 맞는 골프 찾기</a
         >
-      </h3>
+      </h2>
       <hr />
-      <h3>헤이버디, 우리의 미션은 골프를 보다 스마트하게!</h3>
+      <h2>헤이버디, 우리의 미션은 골프를 보다 스마트하게!</h2>
       <p>
         골프인들이 함께 만들어가는 서비스, 양질의 정보를 제공하고, 평가를
         공유하며, 분석하여 제공함으로 돈과 시간의 낭비로부터 보호하고자
@@ -48,7 +48,7 @@
       </v-simple-table>
 
       <br />
-      <h4>어째서 골프인가?</h4>
+      <h2>어째서 골프인가?</h2>
       <p>
         골프는 이제는 남녀노소 나이와 상관없이 즐길수 있는 스포츠가 되었습니다.
         옛날과 달리 더이상 골프를 배우고 즐기는데 많은 돈이 들어가지 않으며,
@@ -59,7 +59,7 @@
         필요성이 있었습니다
       </p>
       <br />
-      <h4>어떤 문제를 해결 할 것인가?</h4>
+      <h2>어떤 문제를 해결 할 것인가?</h2>
       <p>
         가장 기본인 채계적인 정보 제공입니다. <br />골프에 대해 알고 싶어도 입문
         하려 검색을해도 검색된 결과는 전부 쇼핑몰만 나올 뿐이였습니다. 따라서
@@ -82,12 +82,21 @@
         결정하게 되었습니다.
       </p>
       <p>로고 색상은 골프의 상징과 같은 잔디색을 선택하였습니다.</p>
-      <div class="color-sample">#1abc9c</div>
+
+      <v-img
+        :lazy-src="color"
+        :src="color"
+        alt="#1abc9c 색상"
+        width="100"
+        height="100"
+      />
+
       <p>
         부드러운 파스텔 컬러로 사이트의 이미지를 대표하는 색상으로 전체적인
         사이트 디자인에 많은 부분에서 사용되었습니다.
       </p>
-      <h4>개발 전략</h4>
+      <br />
+      <h2>개발 전략</h2>
       <p>
         헤이버디의 목표와 아이덴티티가 정해지고 난뒤 새로운 아이디어는 매일매일
         생겨났고 거기에 맞는 개발 전략도 필요하였습니다. 선택한 전략은
@@ -108,6 +117,7 @@
         기본적인 준비가 모두 끝나고 프로토타입 제작을 시작하였습니다.<br />
         <a
           href="https://ovenapp.io/view/39Ul1WL1WIHbYUvT6zy3DjatsKjQsPCu/nEq4e"
+          rel="noopener"
           target="_blank"
           >프로토타입 보기</a
         ><br />
@@ -121,14 +131,14 @@
         :src="zeplin"
         alt="제플린을 통해 화면 계획 및 디자인 공유"
       />
-      <h4>개발 시작</h4>
+      <h2>개발 시작</h2>
       <p>
         목표, 디자인, 화면 계획이 모두 준비가 되고 드디어 개발을 시작하게
         되었습니다. 스타트업의 핵심 과제는 얼마나 빠르게 아이디어를 적용하고
         시장 반응을 볼 수 있는가 라고 생각합니다. 그렇기위해 적은 러닝타임, 빠른
         개발, 증명된 기술스택을 중점으로 다음과 같이 구조를 정하였습니다.
       </p>
-      <h5>AWS EC2 프론트엔드 서버</h5>
+      <h3>AWS EC2 프론트엔드 서버</h3>
       <p>
         적은 러닝타임과 빠른개발 증명된 기술스택으로 가장 접합하다고 생각되는
         프레임워크를 선택하였습니다. 바로 VueJS입니다. SFC 구조로 하나의 파일이
@@ -137,14 +147,14 @@
         하였습니다. 또한 프로그래시브 웹 프레임워크인 만큼 로딩이 없는 빠른
         화면을 제공하기에 사용자 경험을 극도로 개선 할 수 있었습니다.
       </p>
-      <h5>AWS EC2 백엔드 서버</h5>
+      <h3>AWS EC2 백엔드 서버</h3>
       <p>
         NodeJS의 Express 웹프레임워크가 사용되었습니다. 초기 구성만 잘
         설계한다면 간단한 문법과 빠른 동작속도는 이미 여러 기업으로부터 증명된
         레퍼런스를 가지고 있으며 Node진영에서 가장 많이 사용되는 웹프레임워크
         이기에 선택 되었습니다.
       </p>
-      <h5>AWS RDB 데이터베이스 서버</h5>
+      <h3>AWS RDB 데이터베이스 서버</h3>
       <p>
         초기에는 데이터의 특성상 NoSQL 도입을 고민하였지만 숙련도와 개발환경
         구성을 위해서 RDBMS를 선택하게 되었습니다. Express와 Sequelize
@@ -158,7 +168,7 @@
         이점이 많았습니다.
       </p>
       <v-img :lazy-src="heybirdie" :src="heybirdie" alt="헤이버디 메인" />
-      <h3>정보 수집은 어떻게?</h3>
+      <h2>정보 수집은 어떻게?</h2>
       <p>
         아쉽게도 골프와 관련된 정보는 국내에서 얻을수가 없습니다. 정보가 많지도
         않았으며 잘 정리되어 있지도 공유되어 있지도 않았습니다. 따라서 Python을
@@ -170,7 +180,7 @@
         되었습니다.
       </p>
       <v-img :lazy-src="review" :src="review" alt="헤이버디 평가 페이지" />
-      <h3>수집된 정보를 나와 맞는 골프채 찾기까지로 이어지게...</h3>
+      <h2>수집된 정보를 나와 맞는 골프채 찾기까지로 이어지게...</h2>
       <p>
         평가페이지에서 자세한 정보를 제공하지만 역시 사용자는 골프채 하나하나
         찾아가며 나와 맞는 곮프채를 찾아야만 했었습니다. 따라서 2가지의
@@ -195,7 +205,7 @@
         :src="distence2"
         alt="유클리드 디스텐스 분석 기법"
       />
-      <h3>{{ thisYear }}년 아직 끝나지 않은 목표</h3>
+      <h2>{{ thisYear }}년 아직 끝나지 않은 목표</h2>
       <p>
         헤이버디는 아직도 서비스를 개선하며 지속적인 관리를 하고 발전해 가고
         있습니다. <br />
@@ -222,6 +232,7 @@ export default Vue.extend({
       distence0: require('@/assets/heybirdie/distence0.png'),
       distence1: require('@/assets/heybirdie/distence1.png'),
       distence2: require('@/assets/heybirdie/distence2.png'),
+      color: require('@/assets/heybirdie/color.png'),
     }
   },
   computed: {
@@ -231,13 +242,3 @@ export default Vue.extend({
   },
 })
 </script>
-
-<style scoped>
-.color-sample {
-  width: 100px;
-  height: 100px;
-  background-color: #1abc9c;
-  text-align: center;
-  justify-self: center;
-}
-</style>

@@ -24,7 +24,7 @@
 
     <!-- Profile Info Start -->
     <v-col cols="6" class="mt-5 mb-5">
-      <h4>장석현<small>Seokhyun Jang</small></h4>
+      <strong>장석현</strong><small>Seokhyun Jang</small>
       <hr />
       <p>FrontEnd 개발자</p>
       <hr />

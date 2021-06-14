@@ -139,12 +139,20 @@ header {
 }
 
 /* Basic Tag */
+.theme--dark.v-btn.v-btn--has-bg {
+  background-color: #0c8764 !important;
+}
+.theme--dark.v-btn.v-btn--has-bg:hover {
+  background-color: #00ffb7 !important;
+}
+
 a {
-  color: #0af !important;
+  color: #00e3a3 !important;
   text-decoration: none;
+  font-weight: bold;
 }
 a:hover {
-  color: #8897f7 !important;
+  color: #00ffb7 !important;
 }
 
 /* Grid */

@@ -20,7 +20,7 @@
 
     <!-- Action Button start -->
     <v-col>
-      <v-btn class="pt-4 pb-5 float-right" to="/blog">목록</v-btn>
+      <v-btn class="pt-4 pb-5 float-right white--text" to="/blog">목록</v-btn>
     </v-col>
     <!-- Action Button end -->
 

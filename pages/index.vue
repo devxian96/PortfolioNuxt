@@ -112,17 +112,17 @@
         <h3 class="text-center">이 웹사이트는 무엇으로 만들었을까?</h3>
         <p class="text-center">
           개발에 사용된 기술스택과 최적화, UX등 어떤것이 사용되었는지 궁금하다면
-          자세히 보기 버튼을 눌러 확인해 보세요.
+          확인하기 버튼을 눌러 확인해 보세요.
         </p>
         <v-btn
           depressed
           dark
           elevation="2"
           block
-          color="primary lighten-1 white--text"
+          color="white--text"
           to="/blog/intro"
-          aria-label="자세히 보기"
-          >자세히 보기</v-btn
+          aria-label="기술스택 확인하기"
+          >기술스택 확인하기</v-btn
         >
       </div>
     </div>

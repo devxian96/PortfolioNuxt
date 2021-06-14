@@ -20,7 +20,10 @@
       </p>
       <p>
         2020년에 개발하였던 라이센스 시스템에서 사용한 자체개발 프레임워크
-        <a href="https://github.com/devxian96/phpExpress" target="_blank"
+        <a
+          href="https://github.com/devxian96/phpExpress"
+          target="_blank"
+          rel="noopener"
           >phpExpress 오픈소스</a
         >화
       </p>
@@ -28,13 +31,17 @@
         VueJS에 있는 글로벌 컴포넌트 기능 React에서도 비슷한 기능으로 라이브러리
         구현(<a
           href="https://github.com/devxian96/react-global-components"
+          rel="noopener"
           target="_blank"
           >react-global-components</a
         >)
       </p>
       <p>
         아주대학교 멘토(2021.02 ~ 2021.06) -
-        <a href="https://github.com/neomorphism/neomo" target="_blank"
+        <a
+          href="https://github.com/neomorphism/neomo"
+          target="_blank"
+          rel="noopener"
           >뉴모피즘 디자인 프레임워크</a
         >
         개발 지도및 교육, 컨트리뷰트
@@ -48,7 +55,10 @@
         >)
       </p>
       <p>
-        <a href="https://devxian96.github.io/portfolionuxt/" target="_blank"
+        <a
+          href="https://devxian96.github.io/portfolionuxt/"
+          target="_blank"
+          rel="noopener"
           >포트폴리오 웹사이트</a
         >
         개발(2021.06, 1달, Nuxtjs, 글래스모피즘)
@@ -65,9 +75,11 @@
       <hr />
       <p>한림대학교 휴학</p>
       <p>
-        <a href="https://heybirdie.co.kr" target="_blank">헤이버디</a> 나와 맞는
-        골프 찾기 스타트업(2019.12 ~ 2020.08, 팀원) - 헤이버디(아래 기술스택
-        전체 공부후 사용)
+        <a href="https://heybirdie.co.kr" rel="noopener" target="_blank"
+          >헤이버디</a
+        >
+        나와 맞는 골프 찾기 스타트업(2019.12 ~ 2020.08, 팀원) - 헤이버디(아래
+        기술스택 전체 공부후 사용)
       </p>
       <p>
         Nuxt.js, Forever, PM2, AWS EC2, AWS RDB, AWS Route53, AWS lightsail,
@@ -95,7 +107,8 @@
       </p>
       <p>
         프리랜서 활동.
-        <a href="https://www.asiantipster.com/" target="_blank">아시안 팁스터</a
+        <a href="https://www.asiantipster.com/" rel="noopener" target="_blank"
+          >아시안 팁스터</a
         >및 여러개의 스포츠 관련 홈페이지, 쇼핑몰, 커뮤니티, 인스타 페이스북용
         이미지 편집등 진행, 공장 수율 검사 프로그램 Z-view 후킹하여 보고서 자동
         작성, 공장 모니터링 대시보드 웹 서비스용 구글 익스탠션 개발 제공,
@@ -109,6 +122,7 @@
       <p>
         <a
           href="https://www.koreascience.or.kr/article/CFKO201924664108144.page"
+          rel="noopener"
           target="_blank"
           >대학 통합 설문조사 시스템 설계 및 구축 논문</a
         >
@@ -174,8 +188,8 @@
         Riot 리그오브레전드 메모리 접근및 내부 함수 접근 취약점 제보,
         버그바운티를 진행하지 않는다며 반려 (2021년 4월 기준 아직도 해당 취약점
         존재, 시중에 나온
-        <a href="https://hanbot.gg/" target="_blank">한봇</a>을 포함한 대부분의
-        게임핵이 해당 취약점을 이용중)
+        <a href="https://hanbot.gg/" rel="noopener" target="_blank">한봇</a>을
+        포함한 대부분의 게임핵이 해당 취약점을 이용중)
       </p>
       <p>개인 네트워크 방화벽 개발(Python3, Windows Firewall)</p>
       <p>에이원네트웍스 인턴(2016.08 ~ 2016.09, 2달) - 사무보조 마케팅</p>
@@ -197,8 +211,10 @@
       <p>PHP5, MySQL, MariaDB, Javascript(ES5)</p>
       <p>
         그누보드 아미나 기반 쇼핑몰
-        <a href="http://kingbully.co.kr" target="_blank">킹불리 개발</a> (첫
-        웹개발 시작)
+        <a href="http://kingbully.co.kr" rel="noopener" target="_blank"
+          >킹불리 개발</a
+        >
+        (첫 웹개발 시작)
       </p>
       <p>
         프리랜서로 활동 시작. 코세퀸, 핫몽, 골드월드, 참평안요양원및 교회,
