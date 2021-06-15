@@ -25,3 +25,6 @@ Lighthouse에서 메인화면 기준 다음과 같은 점수를 받았습니다.
 ## 프로젝트 배포
 
 Github Action CICD로 Github page에 자동 테스트 배포되고 있습니다.
+
+## 이 프로젝트 레포지토리로 바로가기
+https://github.com/devxian96/PortfolioNuxt
