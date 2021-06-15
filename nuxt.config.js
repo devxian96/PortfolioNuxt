@@ -23,6 +23,18 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/PortfolioNuxt/favicon.ico' },
       {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap',
+        media: 'print',
+        onload: "this.media='all'",
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css',
+        media: 'print',
+        onload: "this.media='all'",
+      },
+      {
         rel: 'preload',
         as: 'font',
         href: 'https://cdn.jsdelivr.net/npm/@mdi/font@latest/fonts/materialdesignicons-webfont.woff2?v=5.9.55',
