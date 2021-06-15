@@ -52,5 +52,10 @@ export default Vue.extend({
       myPic: require('@/assets/mypic.jpg'),
     }
   },
+  head() {
+    return {
+      title: this.page.title,
+    }
+  },
 })
 </script>

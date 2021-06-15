@@ -78,8 +78,10 @@
 import Vue from 'vue'
 export default Vue.extend({
   scrollToTop: true,
-  head: {
-    title: '보유기술',
+  head() {
+    return {
+      title: '보유기술',
+    }
   },
 })
 </script>

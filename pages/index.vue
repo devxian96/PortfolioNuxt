@@ -258,8 +258,10 @@ export default Vue.extend({
       ],
     }
   },
-  head: {
-    title: '홈',
+  head() {
+    return {
+      title: '홈',
+    }
   },
 })
 </script>

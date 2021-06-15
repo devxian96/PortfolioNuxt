@@ -235,6 +235,11 @@ export default Vue.extend({
       color: require('@/assets/heybirdie/color.png'),
     }
   },
+  head() {
+    return {
+      title: '대표 프로젝트',
+    }
+  },
   computed: {
     thisYear(): number {
       return new Date().getFullYear()

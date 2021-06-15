@@ -290,5 +290,10 @@
 import Vue from 'vue'
 export default Vue.extend({
   scrollToTop: true,
+  head() {
+    return {
+      title: '역사',
+    }
+  },
 })
 </script>
