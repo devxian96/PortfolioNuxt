@@ -75,6 +75,7 @@ export default {
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
+    defaultAssets: falsem,
     theme: {
       dark: true,
       themes: {
