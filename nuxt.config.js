@@ -22,6 +22,11 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/PortfolioNuxt/favicon.ico' },
+      {
+        rel: 'preload',
+        as: 'font',
+        href: 'https://cdn.jsdelivr.net/npm/@mdi/font@latest/fonts/materialdesignicons-webfont.woff2?v=5.9.55',
+      },
     ],
   },
 
@@ -51,6 +56,12 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
   ],
+
+  // Setting up cache for 'static' directory - a year in milliseconds
+  // https://web.dev/uses-long-cache-ttl
+  static: {
+    maxAge: 60 * 60 * 24 * 365 * 1000,
+  },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
