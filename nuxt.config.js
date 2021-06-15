@@ -34,10 +34,6 @@ export default {
         media: 'print',
         onload: "this.media='all'",
       },
-      {
-        rel: 'stylesheet',
-        href: 'https://cdn.jsdelivr.net/npm/@mdi/font@latest/fonts/materialdesignicons-webfont.woff2?v=5.9.55',
-      },
     ],
   },
 
