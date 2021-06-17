@@ -16,7 +16,13 @@
         Redux, Flask, ML, Redis, Express, LSTM + Annomaly Detection등)
       </p>
       <p>
-        소프트젠 홈페이지 개발 개발 (2021.03, 1달, React, Redux, Material UI)
+        <a
+          href="https://github.com/devxian96/softzen-react"
+          target="_blank"
+          rel="noopener"
+          >소프트젠 홈페이지 개발 개발</a
+        >
+        (2021.03, 1달, React, Redux, Material UI)
       </p>
       <p>
         2020년에 개발하였던 라이센스 시스템에서 사용한 자체개발 프레임워크
@@ -179,8 +185,8 @@
         무관)
       </p>
       <p>
-        Riot 리그오브레전드 메모리 접근및 내부 함수 접근 취약점 제보,
-        버그바운티를 진행하지 않는다며 반려 (버그바운티 무관)
+        Riot 리그오브레전드 메모리 접근및 내부 함수 접근 취약점 제보(버그바운티
+        무관)
       </p>
       <p>개인 네트워크 방화벽 개발(Python3, Windows Firewall)</p>
       <p>에이원네트웍스 인턴(2016.08 ~ 2016.09, 2달) - 사무보조 마케팅</p>
