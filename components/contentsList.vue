@@ -1,6 +1,19 @@
 <template>
   <v-row>
-    <div v-for="item in content" :key="item.id" class="box pt-2 pb-2 mb-5">
+    <!-- loadding -->
+    <v-skeleton-loader
+      v-if="!content"
+      light
+      width="100%"
+      type="list-item-two-line"
+    ></v-skeleton-loader>
+    <!-- Contents print -->
+    <div
+      v-for="item in content"
+      v-else
+      :key="item.id"
+      class="box pt-2 pb-2 mb-5"
+    >
       <nuxt-link :to="{ name: 'blog-id', params: { id: item.slug } }">
         <v-row>
           <v-col
