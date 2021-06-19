@@ -99,6 +99,14 @@
       </p>
       <p>라이센스 시스탬 개발(2인, 2020.12 ~ 2021.01, 2개월, PHP7, Nuxtjs)</p>
       <p>findURL 개발(Python3)</p>
+      <p>
+        <a
+          href="https://github.com/devxian96/PortfolioNuxt"
+          target="_blank"
+          rel="noopener"
+          >포트폴리오 사이트 개발</a
+        >(2021.7, Nuxtjs, Vuetify)
+      </p>
     </div>
 
     <!-- 2019 -->
