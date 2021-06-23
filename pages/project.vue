@@ -19,6 +19,9 @@
         하였습니다.<br />개발을 진행하며 겪은 문제와 문제를 해결하는 과정도 함께
         소개합니다.
       </p>
+      <a href="https://heybirdie.co.kr" target="_blank" rel="noopener"
+        >헤이버디(https://heybirdie.co.kr)</a
+      >
       <br />
 
       <v-simple-table>
@@ -163,9 +166,10 @@
         발생하지 않도록 하게 되었습니다.
       </p>
       <p>
-        각각의 3개의 서버로 분리하여 최소한의 MSA를 구현하고자 하였습니다.
-        서비스가 커질 때 Scale Up을 하더라도 위와 같은 최소한의 분할은 여럿으로
-        이점이 많았습니다.
+        이런 Monolithic 아키텍쳐 구조는 MSA에 비해 안전성은 떨어지나 소규모의
+        개발인력으로도 간단한 설계와 빠른 개발이 가능합니다. 또한 이러한 구조는
+        오랜 기간동안 수많은 프로젝트에서 사용되어 왔던만큼 Best Practice를 쉽게
+        찾을수 있으며 적용하는데 적은 노력으로도 가능했습니다.
       </p>
       <v-img :lazy-src="heybirdie" :src="heybirdie" alt="헤이버디 메인" />
       <h2>정보 수집은 어떻게?</h2>
