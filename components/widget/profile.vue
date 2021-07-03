@@ -26,7 +26,7 @@
     <v-col cols="6" class="mt-5 mb-5">
       <strong>장석현</strong><small>Seokhyun Jang</small>
       <hr />
-      <p>FrontEnd 개발자</p>
+      <p>Full-Stack 개발자</p>
       <hr />
       <p>여주대학교<small>컴퓨터정보과</small></p>
       <p>한림대학교<small>빅데이터학과</small></p>
