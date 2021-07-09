@@ -11,7 +11,7 @@ ES6, Typescript
 ## 사용된 기술스택
 
 Nuxtjs, Nuxt-content, Vuetify, PWA  
-블로그 기능을 함께하고 있는 이 프트폴리오 웹 사이트는 놀랍게도 백엔드없이 작동합니다.dd
+블로그 기능을 함께하고 있는 이 포트폴리오 웹 사이트는 놀랍게도 백엔드없이 작동합니다.dd
 MD문서를 파일단위로 읽어 게시글을 구성하고 게시판과 블로그의 역활을 합니다.  
 현재 이 글 또한 MD문서로 작성되어 있습니다.
 
@@ -27,4 +27,5 @@ Lighthouse에서 메인화면 기준 다음과 같은 점수를 받았습니다.
 Github Action CICD로 Github page에 자동 테스트 배포되고 있습니다.
 
 ## 이 프로젝트 레포지토리로 바로가기
+
 https://github.com/devxian96/PortfolioNuxt
