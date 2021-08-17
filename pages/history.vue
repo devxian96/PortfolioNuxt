@@ -8,7 +8,11 @@
       <p>
         React, Redux, Nextjs, Typescript, Material UI, Flask, Orion, influxDB,
         Github CICD Action, Thymeleaf, ejs, Swift, LSTM + Annomaly Detection ML
-        추가 학습, FireBase, Redis, Figma, UXUI, Wireframe(lo-fi, hi-fi)
+        추가 학습, FireBase, Redis, Figma, UXUI, Wireframe(lo-fi, hi-fi), SCSS
+      </p>
+      <p>
+        ERP 시스템 개발(2021.08) - 불량 보고가 가능한 페이스북 타임라인 방식의
+        보고 체계 (NuxtJS, PHP)
       </p>
       <p>쇼핑몰 개발(FireBase, Nuxtjs)</p>
       <p>

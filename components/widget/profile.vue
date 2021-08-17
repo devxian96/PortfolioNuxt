@@ -7,7 +7,7 @@
         :lazy-src="myPic"
         :src="myPic"
         width="200px"
-        height="200px"
+        height="180px"
         alt="Seokhyun Jang"
       >
         <template #placeholder>
