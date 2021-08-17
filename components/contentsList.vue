@@ -2,7 +2,7 @@
   <v-row>
     <!-- loadding -->
     <v-skeleton-loader
-      v-if="!content"
+      v-if="isEmpty(content)"
       light
       width="100%"
       type="list-item-two-line"
@@ -43,6 +43,11 @@ export default Vue.extend({
     this.content = await this.$content()
       .only(['title', 'updatedAt', 'slug'])
       .fetch()
+  },
+  methods: {
+    isEmpty(param: Object): boolean {
+      return Object.keys(param).length === 0
+    },
   },
 })
 </script>
