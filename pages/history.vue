@@ -10,6 +10,7 @@
         Github CICD Action, Thymeleaf, ejs, Swift, LSTM + Annomaly Detection ML
         추가 학습, FireBase, Redis, Figma, UXUI, Wireframe(lo-fi, hi-fi), SCSS
       </p>
+      <p>Cafe24 입사(2021.10.05) - 에디봇 서비스 개발</p>
       <p>
         ERP 시스템 개발(2021.08) - 불량 보고가 가능한 페이스북 타임라인 방식의
         보고 체계 (NuxtJS, PHP)
