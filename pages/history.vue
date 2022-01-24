@@ -2,6 +2,16 @@
   <v-row>
     <!-- 2021 -->
     <div class="box mb-5 pt-2 pb-2">
+      <h3>2022</h3>
+      <p>
+        cafe24(근무중)<br />
+        - 스티커 좌우상하 자유 크기변경 기능 개발<br />
+        - 스티커 텍스트입력에 따른 자동 크기조절
+      </p>
+    </div>
+
+    <!-- 2021 -->
+    <div class="box mb-5 pt-2 pb-2">
       <h3>2021</h3>
       <hr />
       <p>한림대학교 복학</p>
@@ -10,7 +20,13 @@
         Github CICD Action, Thymeleaf, ejs, Swift, LSTM + Annomaly Detection ML
         추가 학습, FireBase, Redis, Figma, UXUI, Wireframe(lo-fi, hi-fi), SCSS
       </p>
-      <p>Cafe24 입사(2021.10.05) - 에디봇 서비스 개발</p>
+      <p>
+        cafe24 입사(2021.10.05) - 에디봇 서비스 개발<br />
+        - 사용자 UI기반 클라이언트 에러트래커 로그 수집기 개발(Sentry.io와
+        유사)<br />
+        - HTML, Blob, SVG, Canvas 이미지 결합을 통한 블러 필터 개발<br />
+        - 수정중인 상세페이지를 저장/불러오기 기능 구현(JS, PHP, Redis)
+      </p>
       <p>
         ERP 시스템 개발(2021.08) - 불량 보고가 가능한 페이스북 타임라인 방식의
         보고 체계 (NuxtJS, PHP)
