@@ -28,7 +28,8 @@
     "types": [
       "@nuxt/types",
       "@nuxt/content",
-      "@types/node"
+      "@types/node",
+      "@types/jest"
     ]
   },
   "exclude": [
