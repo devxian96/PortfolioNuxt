@@ -1,6 +1,6 @@
 <template>
   <v-row>
-    <!-- loadding -->
+    <!-- loading -->
     <v-skeleton-loader
       v-if="isEmpty(content)"
       light
@@ -16,14 +16,14 @@
     >
       <nuxt-link :to="{ name: 'blog-id', params: { id: item.slug } }">
         <v-row>
-          <v-col
-            ><h3>{{ item.title }}</h3></v-col
-          >
-          <v-col class="text-right"
-            ><p class="mb-0">
+          <v-col>
+            <h3>{{ item.title }}</h3>
+          </v-col>
+          <v-col class="text-right">
+            <p class="mb-0">
               {{ new Date(item.updatedAt).toLocaleString() }}
-            </p></v-col
-          >
+            </p>
+          </v-col>
         </v-row>
       </nuxt-link>
     </div>

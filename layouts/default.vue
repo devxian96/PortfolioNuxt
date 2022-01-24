@@ -17,7 +17,7 @@
             >
           </li>
           <li>
-            <nuxt-link to="/history" class="white--text">역사</nuxt-link>
+            <nuxt-link to="/history" class="white--text">이력</nuxt-link>
           </li>
           <li><nuxt-link to="/blog" class="white--text">블로그</nuxt-link></li>
         </ul>
@@ -82,14 +82,17 @@ export default Vue.extend({
 .theme--light.v-application {
   background: #2f495e !important;
 }
+
 .bg-icon {
   width: 100%;
   transform: translate(0, 20%);
   position: absolute;
 }
+
 .bg-icon > div {
   margin: auto;
 }
+
 .theme--dark.v-footer,
 .theme--light.v-footer {
   background-color: transparent !important;
@@ -107,11 +110,13 @@ export default Vue.extend({
   max-height: 50px;
   margin: auto;
 }
+
 .menu-wrap {
   list-style-type: none;
   margin: 0 !important;
   padding: 0 !important;
 }
+
 .menu-wrap > li {
   float: left;
   margin-left: 0 !important;
@@ -120,19 +125,23 @@ export default Vue.extend({
   border: 0;
   color: #fff !important;
 }
+
 .v-toolbar__content {
   border-radius: 3px;
   border-left: 10px solid #fff;
   display: block !important;
 }
+
 header {
   margin-top: 13px !important;
   margin-bottom: 3rem !important;
 }
+
 .theme--dark.v-app-bar.v-toolbar.v-sheet,
 .theme--light.v-app-bar.v-toolbar.v-sheet {
   background: transparent !important;
 }
+
 .v-application ul,
 .v-application ol {
   padding-left: 0;
@@ -142,6 +151,7 @@ header {
 .theme--dark.v-btn.v-btn--has-bg {
   background-color: #0c8764 !important;
 }
+
 .theme--dark.v-btn.v-btn--has-bg:hover {
   background-color: #00ffb7 !important;
 }
@@ -151,6 +161,7 @@ a {
   text-decoration: none;
   font-weight: bold;
 }
+
 a:hover {
   color: #00ffb7 !important;
 }
@@ -159,50 +170,51 @@ a:hover {
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
   grid-column-gap: 12px;
-  grid-row-gap: 30px;
 }
+
 .grid > div {
   display: grid;
+  grid-gap: 30px;
   grid-column-gap: 12px;
-  grid-row-gap: 30px;
   grid-auto-rows: min-content;
 }
+
 @media all and (max-width: 767px) {
   .grid {
     grid-template-columns: none;
   }
 }
 
-/* Glassmorphism */
+/* Glassorphism */
 .box {
   width: 100%;
   height: fit-content;
-  background: rgba(44, 62, 80, 0.8);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  background: rgba(44 62 80 / 80%);
+  box-shadow: 0 8px 32px 0 rgba(31 38 135 / 37%);
   backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255 255 255 / 18%);
   padding-left: 1rem;
   padding-right: 1rem;
 }
+
 .box-purple {
   width: 100%;
   height: fit-content;
-  background: rgba(60, 75, 171, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  background: rgba(60 75 171 / 25%);
+  box-shadow: 0 8px 32px 0 rgba(31 38 135 / 37%);
   backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255 255 255 / 18%);
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
 /* Line */
 hr {
-  border: 1px solid rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(0 0 0 / 25%);
   margin-top: 5px;
   margin-bottom: 8px;
 }

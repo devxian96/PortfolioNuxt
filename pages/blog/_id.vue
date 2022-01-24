@@ -34,14 +34,16 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import Vue from 'vue'
+import { Context } from '@nuxt/types'
 import ContentsList from '@/components/contentsList.vue'
+
 export default Vue.extend({
   components: { ContentsList },
   scrollToTop: true,
-  async asyncData({ $content, params }) {
-    const page = await $content(params.id).fetch()
+  async asyncData({ $content, params }: Context): Promise<{ page: object }> {
+    const page: object = await $content(params.id).fetch()
 
     return {
       page,
@@ -54,7 +56,7 @@ export default Vue.extend({
   },
   head() {
     return {
-      title: this.page.title,
+      title: (this as any).page.title,
     }
   },
 })

@@ -11,5 +11,9 @@ module.exports = {
   ],
   plugins: [],
   // add your custom rules here
-  rules: {},
+  rules: {
+    'vue/first-attribute-linebreak': 'off',
+    'vue/no-reserved-props': 'off',
+    'vue/multi-word-component-names': 'off',
+  },
 }

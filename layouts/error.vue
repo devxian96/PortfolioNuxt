@@ -10,7 +10,7 @@
   </v-app>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   layout: 'empty',
   props: {
@@ -25,9 +25,11 @@ export default {
       otherError: 'An error occurred',
     }
   },
-  head() {
+  head(): { title: string } {
     const title =
-      this.error.statusCode === 404 ? this.pageNotFound : this.otherError
+      (this as any).error.statusCode === 404
+        ? (this as any).pageNotFound
+        : (this as any).otherError
     return {
       title,
     }

@@ -118,7 +118,7 @@
       <hr />
       <p>한림대학교 빅데이터학과 편입</p>
       <p>
-        Keras, Maltplot, Srping MVC, myBatis, JPA(JSTL), 전자정부프레임워크,
+        Keras, Maltplot, Spring MVC, myBatis, JPA(JSTL), 전자정부프레임워크,
         Tomcat, zeus, Spring Boot, VueJS, npm, yarn, Javascript ES6-8, premiere
         PRO, R, Slack
       </p>
@@ -240,7 +240,7 @@
       <p>inN방문기 (Autoit)</p>
       <p>
         UNIX, Router IOS OS(CCNA, CCNP 준비), TCP/IP 네트워크, 리버싱,
-        Metaploit, Pentesting등 보안 분야 학습. (ITBANK)
+        Metasploit, Penetration test등 보안 분야 학습. (ITBANK)
       </p>
     </div>
 
@@ -300,7 +300,7 @@ export default Vue.extend({
   scrollToTop: true,
   head() {
     return {
-      title: '역사',
+      title: '이력',
     }
   },
 })
