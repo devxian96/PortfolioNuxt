@@ -37,7 +37,7 @@
 <script lang="ts">
 import Vue from 'vue'
 import { Context } from '@nuxt/types'
-import ContentsList from '@/components/contentsList.vue'
+import ContentsList from '../components/contentsList.vue'
 
 export default Vue.extend({
   components: { ContentsList },
@@ -51,7 +51,7 @@ export default Vue.extend({
   },
   data() {
     return {
-      myPic: require('@/assets/mypic.jpg'),
+      myPic: require('../assets/mypic.jpg'),
     }
   },
   head() {

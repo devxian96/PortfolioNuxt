@@ -4,7 +4,7 @@
 import Vue from 'vue'
 import Vuetify from 'vuetify'
 import { mount } from '@vue/test-utils'
-import Index from '@/pages/history.vue'
+import Index from '../pages/history.vue'
 
 Vue.use(Vuetify)
 

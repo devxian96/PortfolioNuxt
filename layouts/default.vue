@@ -70,7 +70,7 @@ import Vue from 'vue'
 export default Vue.extend({
   data() {
     return {
-      img: require('@/assets/virus.png'),
+      img: require('../assets/virus.png'),
     }
   },
 })

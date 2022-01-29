@@ -134,8 +134,8 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import Profile from '@/components/widget/profile.vue'
-import SkillStack from '@/components/widget/skillStack.vue'
+import Profile from '../components/widget/profile.vue'
+import SkillStack from '../components/widget/skillStack.vue'
 
 export default Vue.extend({
   components: { Profile, SkillStack },
@@ -144,12 +144,12 @@ export default Vue.extend({
     return {
       cards: [
         {
-          img: require('@/assets/phpExpressLogo.png'),
+          img: require('../assets/phpExpressLogo.png'),
           link: 'https://github.com/devxian96/phpExpress',
           summary: 'PHP RestAPI 프레임워크',
         },
         {
-          img: require('@/assets/neomo.png'),
+          img: require('../assets/neomo.png'),
           link: 'https://github.com/neomorphism/neomo',
           summary: '뉴모피즘 웹 디자인 프레임워크',
         },
