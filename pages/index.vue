@@ -134,7 +134,7 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import Profile from '../components/widget/profile.vue'
+import Profile from 'components/widget/profile.vue'
 import SkillStack from 'components/widget/skillStack.vue'
 
 export default Vue.extend({
