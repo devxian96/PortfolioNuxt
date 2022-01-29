@@ -19,16 +19,18 @@ jobs:
         os: [ubuntu-latest]
         node: [17]
 
-    steps:
+    steps: 
       - name: Checkout 🛎
         uses: actions/checkout@master
+
+      - name: Linux Setting
+        run: export NODE_OPTIONS=--openssl-legacy-provider
 
       - name: Setup node env 🏗
         uses: actions/setup-node@v2.5.1
         with:
           node-version: ${{ matrix.node }}
           check-latest: true
-        run: export NODE_OPTIONS=--openssl-legacy-provider
 
       - name: Get yarn cache directory path 🛠
         id: yarn-cache-dir-path
