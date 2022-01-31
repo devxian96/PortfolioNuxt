@@ -225,16 +225,16 @@ export default Vue.extend({
   scrollToTop: true,
   data() {
     return {
-      logo: require('../assets/heybirdie/logo.png'),
-      notion: require('../assets/heybirdie/notion.png'),
-      zeplin: require('../assets/heybirdie/zeplin.png'),
-      heybirdie: require('../assets/heybirdie/heybirdie.co.kr_.png'),
-      review: require('../assets/heybirdie/review.png'),
-      mpf: require('../assets/heybirdie/mpf.png'),
-      distence0: require('../assets/heybirdie/distence0.png'),
-      distence1: require('../assets/heybirdie/distence1.png'),
-      distence2: require('../assets/heybirdie/distence2.png'),
-      color: require('../assets/heybirdie/color.png'),
+      logo: require('../assets/heybirdie/logo.webp'),
+      notion: require('../assets/heybirdie/notion.webp'),
+      zeplin: require('../assets/heybirdie/zeplin.webp'),
+      heybirdie: require('../assets/heybirdie/heybirdie.co.kr_.webp'),
+      review: require('../assets/heybirdie/review.webp'),
+      mpf: require('../assets/heybirdie/mpf.webp'),
+      distence0: require('../assets/heybirdie/distence0.webp'),
+      distence1: require('../assets/heybirdie/distence1.webp'),
+      distence2: require('../assets/heybirdie/distence2.webp'),
+      color: require('../assets/heybirdie/color.webp'),
     }
   },
   head() {

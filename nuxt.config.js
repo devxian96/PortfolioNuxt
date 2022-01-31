@@ -7,6 +7,9 @@ export default {
     base: '/PortfolioNuxt/',
   },
 
+  // Source Map on Production
+  productionBrowserSourceMaps: true,
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s - Seokhyun Jang',
@@ -81,7 +84,9 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      lang: 'en',
+      name: 'Seokhyen Jang',
+      lang: 'ko',
+      theme_color: '#2f495e',
     },
   },
 

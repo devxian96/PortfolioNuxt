@@ -141,12 +141,12 @@ export default Vue.extend({
     return {
       cards: [
         {
-          img: require('../assets/phpExpressLogo.png'),
+          img: require('../assets/phpExpressLogo.webp'),
           link: 'https://github.com/devxian96/phpExpress',
           summary: 'PHP RestAPI 프레임워크',
         },
         {
-          img: require('../assets/neomo.png'),
+          img: require('../assets/neomo.webp'),
           link: 'https://github.com/neomorphism/neomo',
           summary: '뉴모피즘 웹 디자인 프레임워크',
         },
