@@ -38,9 +38,9 @@
     <!-- Center Widget Start -->
     <div>
       <div class="box pt-2 pb-2">
-        <h3 v-for="i in 5" :key="i">주요 Front-End 기술스택</h3>
+        <h3>주요 Front-End 기술스택</h3>
         <hr />
-        <WidgetSkillStack
+        <WidgetStack
           v-for="{ icon, summary } in frontEnd"
           :key="icon"
           :icon="icon"
@@ -50,7 +50,7 @@
       <div class="box pt-2 pb-2">
         <h3>주요 Back-End 기술스택</h3>
         <hr />
-        <WidgetSkillStack
+        <WidgetStack
           v-for="{ icon, summary } in backEnd"
           :key="icon"
           :icon="icon"
@@ -60,7 +60,7 @@
       <div class="box pt-2 pb-2">
         <h3>주요 DevOps</h3>
         <hr />
-        <WidgetSkillStack
+        <WidgetStack
           v-for="{ icon, summary } in devOps"
           :key="icon"
           :icon="icon"
@@ -71,7 +71,7 @@
       <div class="box pt-2 pb-2">
         <h3>기타 기술스택</h3>
         <hr />
-        <WidgetSkillStack
+        <WidgetStack
           v-for="{ icon, summary } in elseSkill"
           :key="icon"
           :icon="icon"
