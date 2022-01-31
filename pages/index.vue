@@ -2,7 +2,7 @@
   <div class="grid">
     <!-- Left Widget Start -->
     <div>
-      <div class="box"><Profile /></div>
+      <div class="box"><WidgetProfile /></div>
       <div class="box-purple">
         <v-icon x-large color="white">fa-envelope</v-icon>
         <span class="white--text pl-3"
@@ -40,7 +40,7 @@
       <div class="box pt-2 pb-2">
         <h3>주요 Front-End 기술스택</h3>
         <hr />
-        <skill-stack
+        <WidgetSkillStack
           v-for="{ icon, summary } in frontEnd"
           :key="icon"
           :icon="icon"
@@ -50,7 +50,7 @@
       <div class="box pt-2 pb-2">
         <h3>주요 Back-End 기술스택</h3>
         <hr />
-        <skill-stack
+        <WidgetSkillStack
           v-for="{ icon, summary } in backEnd"
           :key="icon"
           :icon="icon"
@@ -60,7 +60,7 @@
       <div class="box pt-2 pb-2">
         <h3>주요 DevOps</h3>
         <hr />
-        <skill-stack
+        <WidgetSkillStack
           v-for="{ icon, summary } in devOps"
           :key="icon"
           :icon="icon"
@@ -71,7 +71,7 @@
       <div class="box pt-2 pb-2">
         <h3>기타 기술스택</h3>
         <hr />
-        <skill-stack
+        <WidgetSkillStack
           v-for="{ icon, summary } in elseSkill"
           :key="icon"
           :icon="icon"
@@ -134,11 +134,8 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import Profile from '../components/widget/profile.vue'
-import SkillStack from '../components/widget/skillStack.vue'
 
 export default Vue.extend({
-  components: { Profile, SkillStack },
   scrollToTop: true,
   data() {
     return {
