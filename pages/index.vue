@@ -40,14 +40,13 @@
       <div class="box pt-2 pb-2">
         <h3>주요 Front-End 기술스택</h3>
         <hr />
-        <client-only>
-          <WidgetSkillStack
-            v-for="{ icon, summary } in frontEnd"
-            :key="icon"
-            :icon="icon"
-            :summary="summary"
-          />
-        </client-only>
+        {{ frontEnd }}
+        <WidgetSkillStack
+          v-for="{ icon, summary } in frontEnd"
+          :key="icon"
+          :icon="icon"
+          :summary="summary"
+        />
       </div>
       <div class="box pt-2 pb-2">
         <h3>주요 Back-End 기술스택</h3>
