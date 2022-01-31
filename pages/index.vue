@@ -40,12 +40,11 @@
       <div class="box pt-2 pb-2">
         <h3>주요 Front-End 기술스택</h3>
         <hr />
-        {{ frontEnd }}
         <WidgetSkillStack
-          v-for="{ icon, summary } in frontEnd"
-          :key="icon"
-          :icon="icon"
-          :summary="summary"
+          v-for="data in frontEnd"
+          :key="data.icon"
+          :icon="data.icon"
+          :summary="data.summary"
         />
       </div>
       <div class="box pt-2 pb-2">
