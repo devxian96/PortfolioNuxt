@@ -38,13 +38,13 @@
     <!-- Center Widget Start -->
     <div>
       <div class="box pt-2 pb-2">
-        <h3>주요 Front-End 기술스택</h3>
+        <h3 v-for="i in 5" :key="i">주요 Front-End 기술스택</h3>
         <hr />
         <WidgetSkillStack
-          v-for="data in frontEnd"
-          :key="data.icon"
-          :icon="data.icon"
-          :summary="data.summary"
+          v-for="{ icon, summary } in frontEnd"
+          :key="icon"
+          :icon="icon"
+          :summary="summary"
         />
       </div>
       <div class="box pt-2 pb-2">
