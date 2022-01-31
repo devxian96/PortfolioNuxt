@@ -70,8 +70,11 @@ export default {
     '@nuxt/content',
   ],
 
-  // cache https://develop365.gitlab.io/nuxtjs-0.10.7-doc/ko/api/configuration-cache/
-  cache: true,
+  // cache: https://develop365.gitlab.io/nuxtjs-0.10.7-doc/ko/api/configuration-cache/
+  cache: {
+    max: 1000,
+    maxAge: 31536000,
+  },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
