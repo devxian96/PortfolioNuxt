@@ -7,9 +7,6 @@ export default {
     base: '/PortfolioNuxt/',
   },
 
-  // Source Map on Production
-  productionBrowserSourceMaps: true,
-
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s - Seokhyun Jang',
@@ -73,13 +70,8 @@ export default {
     '@nuxt/content',
   ],
 
-  render: {
-    // Setting up cache for 'static' directory - a year in milliseconds
-    // https://web.dev/uses-long-cache-ttl
-    static: {
-      maxAge: 31536000,
-    },
-  },
+  // cache https://develop365.gitlab.io/nuxtjs-0.10.7-doc/ko/api/configuration-cache/
+  cache: true,
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
@@ -116,5 +108,12 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    extend(config, { isClient }) {
+      // Extend only webpack config for client-bundle
+      if (isClient) {
+        config.devtool = 'source-map'
+      }
+    },
+  },
 }
