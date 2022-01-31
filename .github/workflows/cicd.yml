@@ -21,7 +21,7 @@ jobs:
 
     steps: 
       - name: Checkout 🛎
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
 
       - name: Linux Setting
         run: export NODE_OPTIONS=--openssl-legacy-provider
