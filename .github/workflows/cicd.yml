@@ -54,9 +54,6 @@ jobs:
       - name: Run tests 🧪
         run: yarn test
 
-      - name: Run build 🏗️
-        run: yarn build
-
       - name: Run generate 🔥
         run: yarn generate
 
