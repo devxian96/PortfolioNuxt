@@ -2,7 +2,7 @@
 title: Toss FE Fundamentals 모의고사 1회 후기
 description: 좋은 코드가 무엇인지 고민해볼수 있었던 좋은 기회에요.
 ---
-![image.png](image.png)
+![https://github.com/devxian96/PortfolioNuxt/blob/master/content/image.png?raw=true](https://github.com/devxian96/PortfolioNuxt/blob/master/content/image.png?raw=true)
 
 프론트엔드 개발을 잘하려면 단순히 코드를 작성하는 데서 그치지 않고,  
 왜 그렇게 구현해야 하는지 명확한 기준을 세워야 해요.  
@@ -13,7 +13,7 @@ description: 좋은 코드가 무엇인지 고민해볼수 있었던 좋은 기�
 
 # UI와 1:1 매칭되는 JSX 구조
 
-![code-1-1.png](code-1-1.png)
+![https://github.com/devxian96/PortfolioNuxt/blob/master/content/code-1-1.png?raw=true](https://github.com/devxian96/PortfolioNuxt/blob/master/content/code-1-1.png?raw=true)
 이번에 “좋은 JSX는 화면 UI가 어떻게 생겼는지 읽기만 해도 바로 상상할 수 있어야 한다”는 걸 새롭게 배웠어요.
 생각해보면 위 이미지 속에서 제가 작성했던 `SavingCalculatorForm`과 `SavingCalculatorTab` 컴포넌트는 화면 구조를 한 번 더 감싸는 역할만 하고 있었어요.  
 
@@ -27,7 +27,7 @@ description: 좋은 코드가 무엇인지 고민해볼수 있었던 좋은 기�
 
 # 추상화
 
-![code-atr.png](code-atr.png)
+![https://github.com/devxian96/PortfolioNuxt/blob/master/content/code-atr.png?raw=true](https://github.com/devxian96/PortfolioNuxt/blob/master/content/code-atr.png?raw=true)
 
 라이브러리를 제작자의 의도에 맞게 사용하는 게 "잘 쓰는 것"이라고 생각하면, 사실 저는 예전 스타일 그대로 개발해도 큰 문제는 없었을 것 같아요.  
 그런데 이번에 배운 내용을 적용해서 이 부분도 한 번 추상화해보면 오히려 결합도는 낮추고 응집도는 높이는 방향으로 코드를 만들 수 있다는 걸 깨달았어요.  
