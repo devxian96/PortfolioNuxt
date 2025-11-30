@@ -29,8 +29,8 @@
     "@nuxt/content": "^1.15.1",
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.20.3",
-    "loader-utils": "^3.2.0",
-    "nuxt": "^2.15.8",
+    "loader-utils": "^3.2.1",
+    "nuxt": "^3.19.0",
     "sass": "^1.49.0",
     "sass-loader": "^10.1.1"
   },
