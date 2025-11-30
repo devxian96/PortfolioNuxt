@@ -84,6 +84,19 @@ export default {
     liveEdit: false,
   },
 
+  // Generate configuration for static site generation
+  generate: {
+    routes() {
+      const fs = require('fs')
+      const path = require('path')
+      const contentDir = path.join(__dirname, 'content')
+      const files = fs.readdirSync(contentDir)
+      const mdFiles = files.filter((file) => file.endsWith('.md'))
+      return mdFiles.map((file) => `/blog/${file.replace('.md', '')}`)
+    },
+    fallback: true, // Generate 404.html for GitHub Pages SPA routing
+  },
+
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     treeShake: true,
